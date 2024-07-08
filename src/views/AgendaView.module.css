@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.itemsList {
+    flex-grow: 1;
+    background-color: #f0f0f0;
+    height: 100%;
+}
+
+.itemDetails {
+    flex-grow: 3;
+    height: 100%;
+}
